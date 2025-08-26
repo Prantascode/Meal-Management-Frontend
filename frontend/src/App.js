@@ -8,7 +8,7 @@ import Meals from './components/Meals';
 import Expenses from './components/Expenses';
 import Deposits from './components/Deposits';
 import Reports from './components/Reports';
-import { getMembers, getMeals, getExpenses, getDeposits, getReports } from './service/api';
+import { getMembers, getMeals, getExpenses, getDeposits, getReports } from './services/api';
 
 function App() {
   const [activeTab, setActiveTab] = useState('dashboard');
